@@ -9,7 +9,7 @@ terraform {
   backend "s3" {
     bucket         = "my-bucket-eugen-20250627"
     key            = "terraform-staging.tfstate"
-    region         = "Europe (Frankfurt) eu-central-1"
+    region         = "eu-central-1"
     # Optional DynamoDB for state locking. See https://developer.hashicorp.com/terraform/language/settings/backends/s3 for details.
     # dynamodb_table = "terraform-state-lock-table"
     encrypt        = true
